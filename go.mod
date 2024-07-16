@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 0d146df528f4afbee682c6e8bad3df263a2ce9d3
 module github.com/bootdotdev/learn-cicd-starter
 
 go 1.22
