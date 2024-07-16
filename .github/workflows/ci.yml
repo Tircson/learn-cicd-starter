@@ -24,7 +24,6 @@ jobs:
   style:
     name: Style
     runs-on: ubuntu-latest
-
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -39,4 +38,4 @@ jobs:
 
 
       - name: Install staticcheck
-       run: go install honnef.co/go/tools/cmd/staticcheck@latest
+        run: go install honnef.co/go/tools/cmd/staticcheck@latest
